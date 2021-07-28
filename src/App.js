@@ -1,9 +1,11 @@
-
+import Home from "./Pages/Home/Home";
+import './index.css'
 function App() {
   return (
-    <div className="App">
-     <h1>quiz app</h1>
+    <div className="appContainer">
+      <Home />
     </div>
+
   );
 }
 
